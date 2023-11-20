@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1601662528567-526cd06f6582?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG5vdGVib29rJTIwcGFwZXIlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww)
+
+}
+
+h1 {
+  font-family:'Press Start 2P', cursive;
+  color: #333;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(235, 235, 235);
+  border: 1px solid grey;
+  display: inline-block;
+  transition: transform 0.1s;
+
+  }
+
+  .square:active {
+    transform: scale(0.95);
+  }
+
+.o {
+  position: relative;
+}
+
+.o:after {
+  position: absolute;
+  content: "\🛡️";
+  font-size: 50px;
+  line-height: 100px;
+  inset: 0;
+}
+
+.x {
+  position: relative;
+}
+
+.x:after {
+  position: absolute;
+  content: "\⚔️";
+  font-size: 50px;
+  line-height: 100px;
+  inset: 0;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid grey;
+  background-color: #f05959;
+  color:#f5f5f5;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
